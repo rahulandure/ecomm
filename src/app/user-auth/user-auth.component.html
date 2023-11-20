@@ -1,0 +1,56 @@
+<div class="user-auth">
+    <div *ngIf="!showLogin" class="sign-up">
+        <h2>User Signup</h2>
+    <form #userSignUp="ngForm" class="seller-form" (ngSubmit)="signUp(userSignUp.value)">
+        <input 
+        type="text" 
+        class="form-input" 
+        name="name" 
+        placeholder="Enter User Name"
+        ngModel>
+        <input 
+        type="email" 
+        class="form-input" 
+        name="email" 
+        placeholder="Enter User Email Id"
+        ngModel>
+        <input 
+        type="password" 
+        class="form-input" 
+        name="password" 
+        placeholder="Enter User Password"
+        ngModel>
+        <button class="form-button">SignUp</button>
+        <p>Already Have Account? <a (click)="openLogin()">Click Here</a></p>
+    </form>
+    </div>
+    <div *ngIf="showLogin" class="log-in">
+        <h2>User Login</h2>
+    <form #userLogIn="ngForm" class="seller-form" (ngSubmit)="logIn(userLogIn.value)">
+        <p class="error-p">{{ authError }}</p>
+        <input 
+        type="email" 
+        class="form-input" 
+        name="email" 
+        placeholder="Enter User Email Id"
+        email
+        ngModel
+        #email="ngModel"
+        required>
+        <p class="invalid-input" *ngIf="email.invalid && email.touched">Please enter Valid Email</p>
+        <input 
+        type="password" 
+        class="form-input" 
+        name="password" 
+        placeholder="Enter User Password"
+        ngModel
+        minlength="2"
+        maxlength="20"
+        #password="ngModel"
+        required>
+        <p class="invalid-input" *ngIf="password.invalid && password.touched">Please enter Valid Email</p>
+        <button [disabled]="userLogIn.invalid" class="form-button">Login</button>
+        <p>Want To Create Account<a (click)="openSignup()">Click Here</a></p>
+    </form>
+    </div>
+</div>
