@@ -1,0 +1,175 @@
+{
+  "seller": [
+    {
+      "name": "Rahul",
+      "password": "123456",
+      "email": "test@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "peter",
+      "password": "123456",
+      "email": "peter@test.com",
+      "id": 2
+    },
+    {
+      "name": "brouce",
+      "password": "123456",
+      "email": "brouce@test.com",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "name": "White Checked Slim Fit Shirt",
+      "price": "500",
+      "category": "shirt",
+      "color": "Off White",
+      "description": "Single-button,\nSlim Fit,\nMachine wash,\n100% Cotton.",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20210316/j6jo/6050cc80aeb269698187ef27/-473Wx593H-460499963-white-MARKETING.jpg",
+      "id": 1
+    },
+    {
+      "name": "Mid-Wash Skinny Jeans with Whiskers",
+      "price": "700",
+      "category": "Jeans",
+      "color": "Blue",
+      "description": "5-pocket styling,\nPackage contains: 1 jeans,\nMachine wash, cold\nMid Rise,\nStretch Cotton.",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20220706/JnqS/62c5a3edf997dd03e2bf976a/-473Wx593H-441138834-blue-MODEL4.jpg",
+      "id": 2
+    },
+    {
+      "name": "Colourblock Crew- Neck T-shirt",
+      "price": "350",
+      "category": "T-Shirt",
+      "color": "green",
+      "description": "Regular Fit,\n100% Cotton,\nMachine wash.",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20220802/td9O/62e844bff997dd03e2169140/-1117Wx1400H-462102870-green-MODEL2.jpg",
+      "id": 3
+    },
+    {
+      "name": "Striped Crew-Neck T-shirt",
+      "price": "400",
+      "category": "T-Shirt",
+      "color": "navy",
+      "description": "Regular Fit,\nPackage contains: 1 t-shirt,\nMachine wash,\nCotton,",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20220623/dwgj/62b384feaeb26921af4292a2/-1117Wx1400H-464531943-navy-MODEL.jpg",
+      "id": 4
+    },
+    {
+      "name": "Air Max SC Lace-Up Sneakers",
+      "price": "4000",
+      "category": "Shoes",
+      "color": "Black",
+      "description": "Wipe with a clean, dry cloth when needed,\nSynthetic rubber sole,\nLace Fastening,\nMesh upper.",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20210610/WGFy/60c23519aeb269a9e3e39c67/-473Wx593H-460886348-black-MODEL.jpg",
+      "id": 5
+    },
+    {
+      "name": "UV-Protected Square Sunglasses",
+      "price": "2000",
+      "category": "Sunglasses",
+      "color": "Silver",
+      "description": "Full-rim Frame,\nUV Protected Lens,\n1-year warranty against manufacturing defects,\nMetal Frame,\nPolycarbonate Lens.",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20220326/ralj/623e2e35aeb26921aff9399c/-1117Wx1400H-469147101-silver-MODEL.jpg",
+      "id": 6
+    },
+    {
+      "name": "Water-Resistant Analogue Watch",
+      "price": "3000",
+      "category": "Watches",
+      "color": "Silver",
+      "description": "Clean the dial with a cotton cloth,\nWater resistance: 50 m,\n2-year warranty against manufacturing defects,\nPackage contains: 1 watch,\nDial width: 44 mm.",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20220526/C3GA/628eb851aeb26921afda9ee4/-1117Wx1400H-4925844480-multi-MODEL.jpg",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "name": "Peter",
+      "email": "peter@user.com",
+      "password": "abcd1234",
+      "id": 1
+    },
+    {
+      "name": "aila",
+      "email": "aila@user.com",
+      "password": "abcd1234",
+      "id": 2
+    },
+    {
+      "name": "tony",
+      "email": "tony@user.com",
+      "password": "abcd1234",
+      "id": 3
+    },
+    {
+      "name": "kartik",
+      "email": "kartik@user.com",
+      "password": "abcd1234",
+      "id": 4
+    },
+    {
+      "name": "aniket",
+      "email": "aniket@user.com",
+      "password": "abcd1234",
+      "id": 5
+    },
+    {
+      "name": "Akash",
+      "email": "akash@user.com",
+      "password": "abcd1234",
+      "id": 6
+    },
+    {
+      "name": "Aniket",
+      "email": "aniket@user.com",
+      "password": "abcd1234",
+      "id": 7
+    }
+  ],
+  "cart": [
+    {
+      "name": "White Checked Slim Fit Shirt",
+      "price": "500",
+      "category": "shirt",
+      "color": "Off White",
+      "description": "Single-button,\nSlim Fit,\nMachine wash,\n100% Cotton.",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20210316/j6jo/6050cc80aeb269698187ef27/-473Wx593H-460499963-white-MARKETING.jpg",
+      "quantity": 2,
+      "productId": 1,
+      "userId": 6,
+      "id": 1
+    },
+    {
+      "name": "Colourblock Crew- Neck T-shirt",
+      "price": "350",
+      "category": "T-Shirt",
+      "color": "green",
+      "description": "Regular Fit,\n100% Cotton,\nMachine wash.",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20220802/td9O/62e844bff997dd03e2169140/-1117Wx1400H-462102870-green-MODEL2.jpg",
+      "quantity": 3,
+      "productId": 3,
+      "userId": 1,
+      "id": 2
+    }
+  ],
+  "orders": [
+    {
+      "email": "tony@user.com",
+      "address": "Cozy Homes",
+      "contact": "0000000000",
+      "totalPrice": 850,
+      "userId": 3,
+      "id": 1
+    },
+    {
+      "email": "tony@user.com",
+      "address": "Cozy Homes",
+      "contact": "1234567890",
+      "totalPrice": 2200,
+      "userId": 3,
+      "id": 3
+    }
+  ]
+}

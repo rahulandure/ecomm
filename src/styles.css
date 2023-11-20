@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: sans-serif;
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+} 
+
+.seller-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+.form-input{
+    height: 35px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(212, 17, 17);
+    padding-left: 15px;
+    color:rgb(212, 17, 17);
+}
+
+.form-button{
+    height: 35px;
+    border: 1px solid rgb(212, 17, 17);
+    color: rgb(212, 17, 17);
+    cursor: pointer;
+}
+.message-p {
+    color: green;
+}
+
+.error-p {
+    color: red;
+}
+
+.add-product, .update-product, .my-order-h1 {
+    text-align: center;
+    color: rgb(212, 17, 17);
+}
+
+.product-message {
+    color: green;
+    text-align: center;
+}
+
+.carousel-caption {
+    position:absolute;
+    right: 15%;
+    left: 15%;
+    bottom: 1.25rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color:#fff;
+    text-align: center;
+    background-color:#0000007d;
+    border-radius: 10px;
+}
+.carousel-control-next-icon,.carousel-control-prev-icon {
+    background-color: black;
+    border-radius: 5px;
+}
+
