@@ -1,0 +1,22 @@
+.sign-up,.log-in{
+    text-align: center;
+}
+
+.seller-auth {
+    margin-bottom: 100px;
+}
+
+.sign-up h2,.log-in h2{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    color: rgb(212, 17, 17);
+}
+
+.auth-toggle-link {
+    color: rgb(212, 17, 17);
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: left;
+    cursor: pointer;
+}
+
