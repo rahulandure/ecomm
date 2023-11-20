@@ -1,0 +1,20 @@
+table{
+    text-align: left;
+    color: rgb(212, 17, 17);
+    border-collapse: collapse;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+table td, table th {
+    border: 1px solid rgb(212, 17, 17);
+    padding: 10px;
+    min-width: 160px;;
+}
+
+.update-product {
+    margin-left: 10px;
+}
